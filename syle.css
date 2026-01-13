@@ -1,0 +1,87 @@
+.glass-nav {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        /* Gradient Text Animation for subtitle */
+        .animate-gradient {
+            background-size: 200% auto;
+            animation: shine-sub 4s linear infinite;
+        }
+        @keyframes shine-sub {
+            to {
+                background-position: 200% center;
+            }
+        }
+
+        /* Typewriter Cursor */
+        .cursor {
+            display: inline-block;
+            width: 3px;
+            background-color: #2563eb;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Scroll Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-up {
+            transform: translateY(50px);
+        }
+
+        .reveal-down {
+            transform: translateY(-50px);
+        }
+
+        /* --- NEW: Shining Ribbon Effect --- */
+        .shine-text {
+            /* Base color is Slate-300 (#cbd5e1), Shine is White (#ffffff) */
+            background: linear-gradient(
+                to left,
+                #94a3b8 45%, 
+                #ffffff 50%, 
+                #94a3b8 55%
+            );
+            background-size: 250% auto;
+            color: #94a3b8;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* 5s total duration: fast shine, long pause */
+            animation: shine-ribbon 6s ease-in-out infinite;
+        }
+
+        @keyframes shine-ribbon {
+            0% {
+                background-position: 0% center; /* Start at Right */
+            }
+            30% {
+                background-position: -200% center; /* Move to Left quickly */
+            }
+            100% {
+                background-position: -200% center; /* Stay there (Pause) */
+            }
+        }
+        
+        /* Staggered delays */
+        .delay-100 { transition-delay: 100ms; }
+        .delay-200 { transition-delay: 200ms; }
+        .delay-300 { transition-delay: 300ms; }
