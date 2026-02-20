@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=280&section=header&text=Engineering%20The%20Future&fontSize=50&fontAlignY=38&desc=Haris%20Rindh%20%7C%20Full%20Stack%20Engineer%20%7C%20AI%20Integrator&descAlignY=60&descAlign=50" alt="Header" />
+  <img src="![Haris rindh](https://github.com/user-attachments/assets/8f4bf434-92e6-4563-bcbd-f648078a36a9)"
+ alt="Header" />
 </div>
 
 <h1 align="center">Hi there, I'm <a href="https://www.linkedin.com/in/harisrindh" target="_blank">Haris Rindh</a> 👋</h1>
