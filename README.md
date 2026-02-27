@@ -29,7 +29,7 @@ I am a software engineer who bridges the gap between **Complex Logic** and **Bus
 
 Currently, I am a 5th-semester student at **Virtual University**, diving deep into **Assembly Language (CS401)** and **Advanced Data Structures**. Outside of academics, I run **Harinova Digital**, helping businesses in Multan establish their digital presence, and I am actively building AI-integrated SaaS products.
 
-* **Core Focus:** MERN Stack Development & Local AI Models (Ollama).
+* **Core Focus:** MERN Stack and Full-stack development.
 * **Professional Goal:** Seeking a challenging **Summer 2026 Internship** at top-tier firms like **Systems Limited** or **NetSol**.
 * **Current Innovation:** Developing failover architectures for AI APIs to ensure 100% uptime.
 
@@ -68,7 +68,6 @@ Currently, I am a 5th-semester student at **Virtual University**, diving deep in
 
 As a freelancer on [Fiverr](https://www.fiverr.com/haris_rindh), I have delivered tailored web solutions for various industries:
 
-* **Harinova Digital:** Official agency site for my web services business in Multan.
 * **Real Estate Platform:** Property listing site with high-resolution gallery optimization.
 * **Dental Clinic Portal:** Appointment booking system with a clean, medical-grade UI.
 * **Restaurant App:** Digital menu and reservation frontend.
